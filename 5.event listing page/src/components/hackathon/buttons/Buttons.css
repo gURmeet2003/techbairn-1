@@ -1,0 +1,116 @@
+.events-buttons-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid red; */
+}
+.events-buttons{
+    margin-top: 9.5rem;
+    margin-bottom: 10rem;
+    display: flex;
+    flex-direction: row;
+    border-radius: 75px;
+    background-color: #ffffff;
+    /* border: 1px solid red; */
+}
+
+.events-buttons button{
+    border:none;
+    border-radius: 75px; 
+}
+.events-button-upcoming p{
+    margin-top:2.9rem;
+    margin-left:7.6rem;
+    margin-bottom:2.8rem;
+    margin-right:7.7rem;
+    font-size: 3.5rem;
+}
+.events-button-past p{
+    margin-top:2.9rem;
+    margin-left:10.7rem;
+    margin-bottom:2.8rem;
+    margin-right:10.8rem;
+    font-size: 3.5rem;
+}
+
+@media (max-width: 768px){
+    .events-button-upcoming p{
+        margin-top:2.9rem;
+        margin-left:5rem;
+        margin-bottom:2.8rem;
+        margin-right:5rem;
+        font-size: 2.5rem;
+    }
+    .events-button-past p{
+        margin-top:2.9rem;
+        margin-left:6rem;
+        margin-bottom:2.8rem;
+        margin-right:6rem;
+        font-size: 2.5rem;
+    }
+}
+@media (max-width: 650px){
+    .events-button-upcoming p{
+        margin-top:2.9rem;
+        margin-left:4rem;
+        margin-bottom:2.8rem;
+        margin-right:4rem;
+        font-size: 2.3rem;
+    }
+    .events-button-past p{
+        margin-top:2.9rem;
+        margin-left:5rem;
+        margin-bottom:2.8rem;
+        margin-right:5rem;
+        font-size: 2.3rem;
+    }
+}
+@media (max-width: 550px){
+    .events-button-upcoming p{
+        margin-top:2.9rem;
+        margin-left:3.8rem;
+        margin-bottom:2.8rem;
+        margin-right:3.8rem;
+        font-size: 2rem;
+    }
+    .events-button-past p{
+        margin-top:2.9rem;
+        margin-left:4.5rem;
+        margin-bottom:2.8rem;
+        margin-right:4.5rem;
+        font-size: 2rem;
+    }
+}
+@media (max-width: 450px){
+    .events-button-upcoming p{
+        margin-top:2.9rem;
+        margin-left:2.8rem;
+        margin-bottom:2.8rem;
+        margin-right:2.8rem;
+        font-size: 1.6rem;
+    }
+    .events-button-past p{
+        margin-top:2.9rem;
+        margin-left:3.5rem;
+        margin-bottom:2.8rem;
+        margin-right:3.5rem;
+        font-size: 1.6rem;
+    }
+}
+@media (max-width: 400px){
+    .events-button-upcoming p{
+        margin-top:2.9rem;
+        margin-left:2.5rem;
+        margin-bottom:2.8rem;
+        margin-right:2.5rem;
+        font-size: 1.3rem;
+    }
+    .events-button-past p{
+        margin-top:2.9rem;
+        margin-left:3rem;
+        margin-bottom:2.8rem;
+        margin-right:3rem;
+        font-size: 1.3rem;
+    }
+}

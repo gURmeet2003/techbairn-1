@@ -1,0 +1,104 @@
+.biggest-hackathon{
+    background-color: #6D87F5;
+    border-radius:20px;
+    margin:50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.biggest-hackathon-text {
+    color:#FFFFFF;
+    margin-left: 90px;
+    margin-top: 183px;
+}
+.biggest-hackathon-text-large{
+    font-size: 5.2rem;
+}
+.biggest-hackathon-text-small{
+    font-size: 2.5rem;
+    margin-top: 4.6rem;
+}
+
+.biggest-hackathon-button{
+    border-radius: 20px;
+    border: none;
+    color:#6D87F5;
+    margin-top: 6.1rem;
+    margin-bottom:15.9rem;
+    font-size:3.3rem;
+    cursor:pointer;
+    background-color:#FFFFFF;
+}
+.biggest-hackathon-button p{
+    margin-top:2.3rem;
+    margin-left:4.4rem;
+    margin-right:4.4rem;
+    margin-bottom:2.2rem;
+}
+
+.biggest-hackathon-img img{
+    height: 74.1rem;
+    width:67.3rem;
+    margin-top: 3.4rem;
+    margin-right: 4.48;
+    margin-bottom: 3.4rem;
+}
+.image-para{
+    display: none;
+}
+@media(max-width:767px){
+    .biggest-hackathon{
+        transform: translateY(10rem);
+        margin: 0rem;
+        margin-left: 0rem;
+    margin-right: 0rem;
+    flex-direction: column-reverse;
+    }
+    .biggest-hackathon-text-large{
+        margin-top: 0rem;
+    margin-left: 0rem;
+    font-size: 5rem;
+    }
+    .biggest-hackathon-img img{
+        width: 100%;
+        height: 30.1rem;
+    }
+    .biggest-hackathon-text-large
+    {
+        display: none;
+    }
+    .image-para{
+        padding-left: 4rem;
+    display: block;
+    color: white;
+    font-size: 4rem;
+    }
+    .biggest-hackathon-text-small{
+        margin-left: 0rem;
+        margin-top: 0rem;
+    }
+    .biggest-hackathon-button{
+        margin-left: 0rem;
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+        font-size: 2rem;
+    }
+    .hackathon-page{
+        padding-top: 0rem;
+    }
+    .biggest-hackathon-button p{
+        margin:0rem;
+        padding: 1rem;
+    }
+    .biggest-hackathon-text{
+        margin-left: 15px;
+        padding: 0rem 2rem;
+        margin-top: 0px;
+    }
+    .hackathons-info{
+        flex-direction: column;
+    }
+    .hackathons-filters{
+        width:100%;
+    }
+}

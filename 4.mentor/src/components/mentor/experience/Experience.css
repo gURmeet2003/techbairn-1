@@ -1,0 +1,67 @@
+/* Experience.css */
+
+/* Global styles */
+.experience {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    overflow: visible;
+    padding:2rem 4rem;
+  }
+  
+  .slick-slider {
+    overflow: visible;
+  }
+  
+  /* Styles for text section */
+  .experience-texts {
+    text-align: center;
+    padding: 2rem 2rem;
+  }
+  
+  .experience-head1 {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+  .experience-head2 {
+    font-size: 1.5rem;
+  }
+  
+  /* Styles for cards */
+  .cards-container {
+    justify-items: center;
+    display: grid; /* Use CSS Grid for layout */
+    grid-template-columns: repeat(3, 1fr); /* Three columns in the grid */
+    gap: 20px; /* Adjust gap between cards */
+    margin: 0 -10px; /* Adjust margin to center grid */
+  }
+  
+  .cards {
+    width: 100%; /* Take full width of each grid cell */
+    min-height: 300px; /* Set minimum height for the cards */
+    margin: 10px; /* Add margin between cards */
+  }
+  
+  /* Slick slider styles for mobile */
+  .slick-slider-mobile {
+    display: none; /* Hide by default */
+  }
+  
+  @media screen and (max-width: 1023px) {
+    .cards-container {
+      display: none; /* Hide cards container on screens below 1024px */
+    }
+  
+    .slick-slider-mobile {
+      display: block; /* Show slick slider for screens below 1024px */
+    }
+  }
+  
+  @media (max-width:767px){
+    .experience{
+      padding:2rem 1rem;
+    }
+    .experience-texts{
+      padding: 4rem 0rem;
+    }
+  }
